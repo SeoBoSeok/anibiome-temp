@@ -16,7 +16,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
         <section class="sub_visual">
             <div class="sub_top_bg"><img src="/assets/images/sub_top_bg.png"></div>
             <div class="page_name text-typing-any">
-                <p class="al_center">노령동물전문관리 <br class="pc_none">프로그램</p>
+                <p class="al_center">강의/교육컨텐츠</p>
             </div>
             <div class="page_navi box_width">
 				<a href="/" class="home">홈</a>
