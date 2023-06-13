@@ -20,7 +20,7 @@ if (!isset($board['bo_device'])) {
     // pc : pc 전용 사용
     // mobile : mobile 전용 사용
     // none : 사용 안함
-    sql_query(" ALTER TABLE  `{$g5['board_table']}` ADD  `bo_device` ENUM(  'both',  'pc',  'mobile' ) NOT NULL DEFAULT  'both' AFTER  `bo_subject` ", false);
+    // sql_query(" ALTER TABLE  `{$g5['board_table']}` ADD  `bo_device` ENUM(  'both',  'pc',  'mobile' ) NOT NULL DEFAULT  'both' AFTER  `bo_subject` ", false);
 }
 
 if (!isset($board['bo_mobile_skin'])) {
