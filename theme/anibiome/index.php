@@ -17,76 +17,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 <!--S 마크업 시작-->
 <div class="wrap">
-	<header>
-		<div class="header_wrap">
-			<div class="left_area">
-				<h2 class="logo"><a href="index.html">로고</a></h2>
-				<ul class="gnb m_none">
-					<li>
-						<a href="#" target="_blank">수의통합의학 강의실</a>
-						<div class="inner_menu">
-							<div class="list">
-								<a href="">수의통합의학</a>
-								<a href="">노령동물전문관리 프로그램</a>
-								<a href="">강의/교육컨텐츠</a>
-								<a href="">전문진료자문시스템</a>
-							</div>
-						</div>
-					</li>
-					<li>
-						<a href="#" target="_blank">회사소개</a>
-						<div class="inner_menu">
-							<div class="list">
-								<a href="">메뉴01</a>
-							</div>
-						</div>
-					</li>
-					<li>
-						<a href="#" target="_blank">핵심역량/사업</a>
-						<div class="inner_menu">
-							<div class="list">
-								<a href="">메뉴01</a>
-							</div>
-						</div>
-					</li>
-					<li>
-						<a href="#" target="_blank">협업/자문 시스템</a>
-						<div class="inner_menu">
-							<div class="list">
-								<a href="">메뉴01</a>
-							</div>
-						</div>
-					</li>
-					<li>
-						<a href="#" target="_blank">마이크로바이옴</a>
-						<div class="inner_menu">
-							<div class="list">
-								<a href="">메뉴01</a>
-							</div>
-						</div>
-					</li>
-					<li>
-						<a href="#" target="_blank">제품/쇼핑몰</a>
-						<div class="inner_menu">
-							<div class="list">
-								<a href="">메뉴01</a>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="right_ico_area">
-				<a href="#" class="cart">
-					장바구니
-					<span class="count">3</span>
-				</a>
-				<a href="#" class="m_none mypage">마이페이지</a>
-				<div class="hamburger_wrap pc_none"  onclick="mdShow('mb_gnb')">
-					<button>hambergur</button>
-				</div>
-			</div>
-		</div>
-	</header>
+    <?php include_once(G5_THEME_PATH.'/menu.php'); ?>
 	<div class="content_wrap main">
 		<section class="main_visual">
 			<div class="box_width">
