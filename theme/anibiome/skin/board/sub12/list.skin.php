@@ -73,7 +73,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                 <?php echo $list[$i]['subject'] ?>
             </div>
             <div class="anibiome_contents_content">
-                <?php echo $list[$i]['wr_content'] ?>
+                <?php cut_str(strip_tags($list[$i]['wr_content']),200,'...'); ?>
             </div>
         </div>
     </a>
