@@ -328,6 +328,13 @@ footer .f_info_wrap .copyright {
 	top:-30%;
 	animation: top_cyc_X 20s linear infinite;
 }
+.eldercare .any_move_item .item012 {
+	position: absolute;
+	width:340px;
+	left:28%;
+	top:45%;
+	animation: top_cyc_Y 10s linear infinite;
+}
 .main .product_3-step {
 	padding:120px 0;
 }
@@ -1543,8 +1550,23 @@ font-size: 18px;
 	margin-left:0 !important;
 	transform: rotate(180deg);
 }
-
-
+.anibiome_contents_footer {
+	padding: 100px 0;
+}
+.anibiome_contents_list {
+	padding: 18px 0;
+}
+.anibiome_contents_author, .anibiome_contents_subject, .anibiome_contents_content {
+	padding: 5px 0;
+}
+.anibiome_contents_author, .anibiome_contents_author span {
+	color: #BDBDBD;
+}
+.anibiome_contents_author span { margin-right: 20px }
+.anibiome_contents_subject {font-size: 18px; line-height: 27px;}
+.anibiome_contents_list:hover .anibiome_contents_subject {
+	color: #097EEA;
+}
 
 /* ========== 미디어쿼리 타블렛========== */
 @media (max-width: 1300px) {
@@ -1958,6 +1980,11 @@ font-size: 18px;
 		width: 120px;
 		left: 50%;
 		top: 12%;
+	}
+	.eldercare .any_move_item .item012 {
+		width:210px;
+		left: 23%;
+    	top: 30%;
 	}
 	.main .any_move_item .item02 {
 		width: 170px;
@@ -2602,7 +2629,7 @@ font-size: 18px;
 
 /* ========== animation========== */
 @keyframes top_cyc_Y {
-	0 {
+	0% {
 		 transform: translateY(0px);
 		margin-left:0;
 		margin-top:0px;

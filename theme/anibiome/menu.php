@@ -8,7 +8,7 @@
                     <div class="inner_menu">
                         <div class="list">
                             <a href="/bbs/content.php?co_id=sub11">수의통합의학</a>
-                            <a href="/bbs/content.php?co_id=sub12">노령동물전문관리 프로그램</a>
+                            <a href="/bbs/board.php?bo_table=sub12">노령동물전문관리 프로그램</a>
                             <a href="/bbs/board.php?bo_table=sub13">강의/교육컨텐츠</a>
                             <a href="/bbs/board.php?bo_table=sub14">전문진료자문시스템</a>
                         </div>
