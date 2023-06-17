@@ -1550,6 +1550,7 @@ font-size: 18px;
 	margin-left:0 !important;
 	transform: rotate(180deg);
 }
+/* 추가 */
 .anibiome_contents_footer {
 	padding: 100px 0;
 }
@@ -1566,6 +1567,523 @@ font-size: 18px;
 .anibiome_contents_subject {font-size: 18px; line-height: 27px;}
 .anibiome_contents_list:hover .anibiome_contents_subject {
 	color: #097EEA;
+}
+/*global_network*/
+.global_network .founder_box{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.global_network .founder_img{
+	width: 42%;
+}
+.global_network .founder_info{
+	width: 54%;
+}
+.global_network .founder_info h3{
+	font-size: 24px;
+	font-weight: 800;
+	color: #097EEA;
+	line-height: 150%;
+	margin-bottom: 16px;
+}
+.global_network .founder_info .founder_name{
+	display: flex;
+	align-items: center;
+}
+.global_network .founder_info .founder_name h1{
+	font-size: 50px;
+	color: #212121;
+	font-weight: bold;
+	line-height: 150%;
+	margin-right: 8px;
+}
+.global_network .founder_info .founder_name span{
+	font-size: 12px;
+	color: #fff;
+	font-weight: 500;
+	background-color: #5FAFFE;
+	padding: 3px 14px;
+	border-radius: 50px;
+}
+.global_network .founder_info h2{
+	font-size: 16px;
+	color: #757575;
+	font-weight: 500;
+	line-height: 150%;
+}
+.global_network .founder_info .founder_list{
+	margin-top: 40px;
+	padding-left: 15px;
+}
+.global_network .founder_info .founder_list li{
+	font-size: 14px;
+	line-height: 150%;
+	color: #9E9E9E;
+	list-style: disc;
+	margin-bottom: 10px;
+}
+.global_network .founder_info .founder_list li:last-child{
+	margin: 0;
+}
+.global_network .company_logo_wrap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.global_network .company_logo_wrap .company_logo{
+	width: 20%;
+	padding: 0 30px;
+}
+.global_network .global_network_member{
+	margin: 100px 0 120px 0 ;
+}
+.global_network .global_network_member .visual {
+	width:100%;
+	height:400px;
+	background: url(../images/bg_ourteam_sc.png);
+	background-size:100%;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: center;
+	padding-top:120px;
+	color:#fff;
+}
+.global_network .global_network_member .visual .sc_tit span{
+	font-size: 24px;
+}
+.global_network .global_network_member .content {
+	padding:50px;
+	border-radius: 8px;
+	margin-top:-100px;
+	background: #F1F3FF;
+	display: flex;
+	align-items: center;
+}
+.global_network .global_network_member .content .member_box{
+	display: flex;
+	align-items: center;
+	width: 45%;
+}
+.global_network .global_network_member .content .member_box .member_img{
+	width: 200px;
+	margin-right: 30px;
+}
+.global_network .global_network_member .content .member_box .member_info h2{
+	font-size: 18px;
+	color: #097EEA;
+	font-weight: 800;
+	line-height: 150%;
+	margin-bottom: 10px;
+}
+.global_network .global_network_member .content .member_box .member_info h1{
+	font-size: 24px;
+	color: #212121;
+	font-weight: 800;
+	line-height: 150%;
+	margin-bottom: 5px;
+}
+.global_network .global_network_member .content .member_box .member_info p{
+	font-size: 14px;
+	color: #9E9E9E;
+	line-height: 150%;
+}
+.global_network .global_network_member .content .member_info_list{
+	background-color: #fff;
+	border-radius: 8px;
+	width: 55%;
+	padding: 20px 30px 20px 50px;
+}
+.global_network .global_network_member .content .member_info_list ul li{
+	list-style: disc;
+	font-size: 14px;
+	color: #616161;
+	line-height: 180%;
+}
+/*biomeDog*/
+.biome_dog .biome_dog_main_banner{
+	display: flex;
+	align-items: center;
+	background-color: #EDF5FD;
+	border-radius: 12px;
+	height: 360px;
+}
+.biome_dog .biome_dog_main_banner .main_banner_img{
+	margin-bottom: 20px;
+	margin-right: 30px;
+}
+.biome_dog .biome_dog_main_banner .main_banner_text h2{
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 150%;
+	color: #097EEA;
+}
+.biome_dog .biome_dog_main_banner .main_banner_text p{
+	font-size: 16px;
+	line-height: 170%;
+	color: #212121;
+	margin: 16px 0 40px 0;
+}
+.biome_dog .biome_dog_main_banner .main_banner_text a{
+	font-size: 18px;
+	color: #097EEA;
+	background-color: #fff;
+	padding: 15px 0;
+	border-radius: 50px;
+	width: 240px;
+	display: inline-block;
+	text-align: center;
+	font-weight: 500;
+}
+.biome_dog_sub{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.biome_dog_sub h1{
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 150%;
+	color: #212121;
+	margin-bottom: 12px;
+	text-align: center;
+}
+.biome_dog_sub p{
+	font-size: 18px;
+	text-align: center;
+	color: #212121;
+	line-height: 170%;
+}
+.biome_dog_sub .biome_dog_icon_list{
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	width: 650px;
+	margin-bottom: 50px;
+	flex-wrap: wrap;
+}
+.biome_dog_sub .biome_dog_icon_list .biome_icon{
+	margin-right: 24px;
+}
+.biome_dog_sub .biome_dog_icon_list .biome_icon a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.biome_dog_sub .biome_dog_icon_list .biome_icon:last-child{
+	margin: 0;
+}
+.biome_dog_sub .biome_dog_icon_list .biome_icon h3{
+	font-size: 16px;
+	line-height: 150%;
+	color: #212121;
+	margin-top: 8px;
+	text-align: center;
+}
+.biome_dog_sub .biome_dog_icon_list .biome_icon .icon_img{
+	width: 88px;
+	height: 88px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100px;
+	background-color: #F6F7F9;
+}
+.biome_dog_sub .biome_dog_icon_list .biome_icon .icon_img img{
+	width: 40px;
+	filter: invert(8%) sepia(8%) saturate(22%) hue-rotate(21deg) brightness(105%) contrast(90%);
+}
+.biome_dog_sub .biome_dog_icon_list .biome_icon:hover h3{
+	color: #097EEA;
+}
+.biome_dog_sub .biome_dog_icon_list .biome_icon:hover .icon_img img{
+	filter: invert(33%) sepia(44%) saturate(3425%) hue-rotate(194deg) brightness(97%) contrast(93%);
+}
+.biome_dog_sub .biome_dog_sub_img img{
+	margin-bottom: -6px;
+}
+.biome_dog .background_color_banner{
+	background-color: #097EEA;
+	padding: 80px 0;
+}
+.biome_dog .biome_dog_help h1{
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	font-weight: 800;
+	line-height: 150%;
+	margin-bottom: 50px;
+}
+.biome_dog .biome_dog_help .biome_dog_help_list{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box{
+	background: #fff;
+	border-radius: 12px;
+	width: 24%;
+}
+.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box a{
+	padding: 40px 30px 20px 30px;
+	height: 440px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box h3{
+	font-size: 24px;
+	font-weight: 800;
+	line-height: 150%;
+	color: #212121;
+	margin-bottom: 10px;
+}
+.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box p{
+	font-size: 14px;
+	color: #757575;
+	line-height: 150%;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box .right_icon{
+	width: 36px;
+}
+.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box .bimoe_dog_help_icon{
+	width: 110px;
+}
+.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box .end_position{
+	display: flex;
+	align-items: flex-end;
+	justify-content: end;
+}
+.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box:hover{
+	background: rgb(225,240,255);
+	background: linear-gradient(180deg, rgba(225,240,255,1) 0%, rgba(255,255,255,1) 30%);
+}
+.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box:hover h3{
+	color: #097EEA;
+}
+.biome_dog_detail .detail_wrap{
+	padding-bottom: 100px;
+}
+.biome_dog_detail .detail_blue{
+	background-color: #EDF5FD;
+}
+.biome_dog_detail .detail_title_banner:not(.inner_banner) {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
+.biome_dog_detail .inner_banner{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 50px 0;
+}
+.biome_dog_detail .detail_title_banner .title_text .icon_img{
+	width: 68px;
+}
+.biome_dog_detail .detail_title_banner .title_text h1{
+	font-size: 50px;
+	color: #5FAFFE;
+	line-height: 150%;
+	font-weight: 800;
+	margin: 20px 0 30px 0;
+}
+.biome_dog_detail .detail_title_banner .title_text h1 strong{
+	color: #097EEA;
+}
+.biome_dog_detail .detail_title_banner .title_text a{
+	font-size: 18px;
+	color: #5FAFFE;
+	text-align: center;
+	padding: 15px 30px;
+	width: 240px;
+	border-radius: 50px;
+	border: 1px solid #5FAFFE;
+}
+#banner1{
+	background-image: url(../images/biomeDog/biome_banner1.png);
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	height: 508px;
+}
+#banner3{
+	background-image: url(../images/biomeDog/biome_banner3.png);
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+	height: 508px;
+}
+.biome_dog_detail .gray_background{
+	background-color: #F6F7F9;
+}
+.biome_dog_detail .white_background{
+	background-color: #fff;
+}
+.biome_dog_detail .detail_content{
+	border-radius: 16px;
+	margin-bottom: 86px;
+	padding: 80px 60px;
+}
+.biome_dog_detail .detail_content h2{
+	font-size: 40px;
+	color: #212121;
+	font-weight: 800;
+	line-height: 150%;
+	margin-bottom: 30px;
+}
+.biome_dog_detail .detail_content p{
+	font-size: 18px;
+	color: #212121;
+	line-height: 170%;
+}
+.biome_dog_detail .detail_content h3{
+	font-size: 24px;
+	color: #212121;
+	margin: 50px 0 16px 0;
+	font-weight: 800;
+}
+.biome_dog_detail .detail_content .infographic_img{
+	display: flex;
+	align-items: center;
+	margin-top: 60px;
+}
+.biome_dog_detail .detail_content .infographic_img > div{
+	padding: 0 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.biome_dog_detail .detail_content .infographic_img > div:first-child{
+	border-right: 1px solid #E6E6EA;
+}
+.biome_dog_detail .detail_content .infographic_img .dog_good h4{
+	font-size: 18px;
+	color: #097EEA;
+	font-weight: 800;
+	text-align: center;
+	padding: 8px 24px;
+	border-radius: 50px;
+	background-color: #E2EEF9;
+	margin-bottom: 50px;
+}
+.biome_dog_detail .detail_content .infographic_img .dog_bad h4{
+	font-size: 18px;
+	color: #FF3233;
+	font-weight: 800;
+	text-align: center;
+	padding: 8px 24px;
+	border-radius: 50px;
+	background-color: #F7DFE1;
+	margin-bottom: 50px;
+}
+.biome_dog_detail .program{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+.biome_dog_detail .program h2{
+	font-size: 40px;
+	color: #212121;
+	font-weight: 800;
+	line-height: 150%;
+	width: 60%;
+}
+.biome_dog_detail .program p{
+	font-size: 18px;
+	color: #212121;
+	line-height: 170%;
+	width: 78%;
+}
+.biome_dog_detail .line_title{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.biome_dog_detail .line_title .line{
+	width: 55%;
+	border-bottom: 1px solid #5FAFFE;
+}
+.biome_dog_detail .line_title h3{
+	font-size: 24px;
+	color: #5FAFFE;
+	font-weight: 700;
+	line-height: 150%;
+	width: 100%;
+	margin: 0 20px;
+	text-align: center;
+}
+.biome_dog_detail .step_system .step_list{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.biome_dog_detail .step_system .step_list li{
+	width: 28%;
+	border-radius: 8px;
+	padding: 40px 20px;
+	height: 390px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.biome_dog_detail .step_system .step_list li h5{
+	font-size: 18px;
+	background-color: #5FAFFE;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px 16px;
+	border-radius: 50px;
+	margin-bottom: 24px;
+}
+.biome_dog_detail .step_system .step_list li p{
+	font-size: 18px;
+	line-height: 150%;
+	font-weight: 500;
+	color: #212121;
+	text-align: center;
+	margin-top: 27px;
+}
+.biome_dog_detail .health_info{
+	margin: 80px 0 0 0;
+	background-color: rgba(0,116,224,.1);
+	border: 1px solid #5FAFFE;
+	border-radius: 16px;
+	padding: 40px 50px;
+}
+.biome_dog_detail .health_info .health_title{
+	display: flex;
+	align-items: center;
+}
+.biome_dog_detail .health_info .health_title img{
+	width: 24px;
+	margin-right: 10px;
+}
+.biome_dog_detail .health_info .health_title h3{
+	font-size: 24px;
+	font-weight: bold;
+	color: #097EEA;
+	line-height: 150%;
+}
+.biome_dog_detail .health_info p{
+	font-size: 18px;
+	color: #212121;
+	line-height: 170%;
+	margin-top: 16px;
+}
+#detail2,#detail3,#detail4,#detail5,#detail6{
+	display: none;
 }
 
 /* ========== 미디어쿼리 타블렛========== */
@@ -1869,6 +2387,41 @@ font-size: 18px;
 	}
 	.shop .product_list .pagination {
 		margin-top:20px;
+	}
+	.global_network .global_network_member .content .member_box .member_img{
+		width: 130px;
+	}
+	.biome_dog .biome_dog_main_banner{
+		flex-direction: column-reverse;
+		height: auto;
+		padding: 50px 20px 0 20px;
+	}
+	.biome_dog .biome_dog_main_banner .main_banner_img{
+	    margin: 0 0 -5px 0;
+	}
+	.biome_dog .biome_dog_main_banner .main_banner_text h2{
+		text-align: center;
+	}
+	.biome_dog .biome_dog_main_banner .main_banner_text h2 br{
+		display: none;
+	}
+	.biome_dog .biome_dog_main_banner .main_banner_text p{
+		text-align: center;
+		margin: 10px 0 20px 0;
+	}
+	.biome_dog .biome_dog_main_banner .main_banner_text{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+	.biome_dog .biome_dog_help .biome_dog_help_list{
+		flex-wrap: wrap;
+	}
+	.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box{
+		width: 49%;
+		margin-bottom: 15px;
 	}
 }
 
@@ -2620,6 +3173,243 @@ font-size: 18px;
 	}
 	.mission_vision .target_area {
 		padding:50px 0px!important;
+	}
+	.global_network .founder_box{
+		flex-direction: column;
+	}
+	.global_network .founder_img{
+		width: 80%;
+	}
+	.global_network .founder_info{
+		width: 100%;
+	}
+	.global_network .founder_info h3{
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.global_network .founder_info .founder_name h1{
+		font-size: 24px;
+	}
+	.global_network .founder_info .founder_name span{
+		font-size: 10px;
+	}
+	.global_network .founder_info h2{
+		font-size: 12px;
+	}
+	.global_network .founder_info .founder_list{
+		margin-top: 30px;
+	}
+	.global_network .founder_info .founder_list li{
+		font-size: 13px;
+	}
+	.global_network .company_logo_wrap .company_logo{
+		width: 33%;
+		padding: 0 15px; 
+	}
+	.global_network .global_network_member .visual{
+		padding-top: 50px;
+		height: 258px;
+		background-size: 140%;
+		background-attachment: unset;
+	}
+	.global_network .global_network_member .visual .sc_tit span{
+		font-size: 16px;
+	}
+	.global_network .global_network_member{
+		margin: 50px 0;
+	}
+	.global_network .global_network_member .content{
+		width: 90%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.global_network .global_network_member .content .member_box{
+		flex-direction: column;
+		width: 100%;
+	}
+	.global_network .global_network_member .content .member_box .member_img{
+		width: 130px;
+		margin: 0;
+	}
+	.global_network .global_network_member .content .member_box .member_info h2{
+		font-size: 16px;
+		text-align: center;
+	}
+	.global_network .global_network_member .content .member_box .member_info h1{
+		font-size: 18px;
+		text-align: center;
+	}
+	.global_network .global_network_member .content .member_box .member_info p{
+		font-size: 13px;
+		text-align: center;
+	}
+	.global_network .global_network_member .content .member_info_list{
+		background-color: transparent;
+		width: 100%;
+		padding: 20px 0 0 0;
+	}
+	.global_network .global_network_member .content .member_info_list ul li{
+		text-align: center;
+    	list-style-position: inside;
+	}
+	.biome_dog .biome_dog_main_banner .main_banner_text h2{
+		font-size: 24px;
+	}
+	.biome_dog .biome_dog_main_banner .main_banner_text p{
+		text-align: center;
+		margin: 10px 0 20px 0;
+	}
+	.biome_dog .biome_dog_main_banner .main_banner_text a{
+		font-size: 16px;
+	}
+	.biome_dog_sub h1{
+		font-size: 24px;
+	}
+	.biome_dog_sub p{
+		font-size: 16px;
+	}
+	.biome_dog_sub .biome_dog_icon_list{
+		width: 100%;
+	}
+	.biome_dog_sub .biome_dog_icon_list .biome_icon{
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.biome_dog_sub .biome_dog_icon_list .biome_icon:last-child{
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.biome_dog .biome_dog_help h1{
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	.biome_dog .background_color_banner{
+		padding: 50px 0;
+	}
+	.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box h3{
+		font-size: 20px;
+	}
+	.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box h3 br{
+		display: none;
+	}
+	.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box{
+		width: 100%;
+	}
+	.biome_dog .biome_dog_help .biome_dog_help_list .biome_dog_help_box a{
+		height: 350px;
+	}
+	.biome_dog_detail .detail_title_banner .title_text .icon_img{
+		width: 40px;
+	}
+	.biome_dog_detail .detail_title_banner .title_text h1{
+		font-size: 35px;
+		margin: 10px 0 30px 0;
+	}
+	.biome_dog_detail .detail_title_banner .title_text h1 br{
+		display: none;
+	}
+	.biome_dog_detail .detail_title_banner .title_text a{
+		font-size: 16px;
+	}
+	.biome_dog_detail .detail_content{
+		padding: 40px 30px;
+		margin-bottom: 50px;
+	}
+	.biome_dog_detail .detail_content h2{
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	.biome_dog_detail .detail_content p{
+		font-size: 16px;
+	}
+	.biome_dog_detail .detail_content h3{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+	.biome_dog_detail .detail_content .infographic_img .dog_bad h4{
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+	.biome_dog_detail .detail_content .infographic_img .dog_good h4{
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+	.biome_dog_detail .detail_content .infographic_img{
+		margin-top: 40px;
+	}
+	.biome_dog_detail .detail_content .infographic_img{
+		flex-direction: column;
+	}
+	.biome_dog_detail .detail_content .infographic_img > div:first-child{
+		margin-bottom: 30px;
+		border-right: 0;
+	}
+	.biome_dog_detail .detail_content .infographic_img > div{
+		padding: 0;
+	}
+	.biome_dog_detail .program{
+		flex-direction: column;
+	}
+	.biome_dog_detail .program h2{
+		width: 100%;
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	.biome_dog_detail .program p{
+		width: 100%;
+		font-size: 16px;
+	}
+	.biome_dog_detail .step_system .step_list{
+		flex-direction: column;
+	}
+	.biome_dog_detail .step_system .step_list li{
+		width: 100%;
+	}
+	.biome_dog_detail .step_system .step_list .right_icon{
+		margin: 20px 0;
+	}
+	.biome_dog_detail .step_system .step_list .right_icon img{
+		transform: rotate(90deg);
+	}
+	.biome_dog_detail .step_system .step_list li p{
+		font-size: 16px;
+	}
+	.biome_dog_detail .step_system .step_list li h5{
+		font-size: 14px;
+	}
+	.biome_dog_detail .line_title h3{
+		font-size: 18px;
+		margin: 20px 0;
+	}
+	.biome_dog_detail .line_title{
+		flex-direction: column;
+	}
+	.biome_dog_detail .line_title .line{
+		width: 100%;
+	}
+	.biome_dog_detail .health_info{
+		margin: 50px 0 0 0;
+		padding: 30px 20px;
+	}
+	.biome_dog_detail .health_info p{
+		font-size: 16px;
+	}
+	.biome_dog_detail .health_info .health_title img{
+		width: 20px;
+	}
+	.biome_dog_detail .health_info .health_title h3{
+		font-size: 20px;
+	}
+	.biome_dog_detail .inner_banner{
+		flex-direction: column-reverse;
+		align-items: flex-start;
+	}
+	.biome_dog_detail .inner_banner .inner_img{
+		width: 45%;
+	}
+	#banner1,#banner3{
+		height: 450px;
 	}
 }
 
