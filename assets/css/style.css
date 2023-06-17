@@ -399,6 +399,14 @@ font-size: 18px;
 	top:50%;
 	transform: translate(-50%, -50%);
 }
+.sub .page_name p{
+	text-align: center;
+}
+.sub .page_name span{
+	display: block;
+	font-size: 25px;
+	text-align: center;
+}
 .sub .page_navi {
 	position: absolute;
 	left: 50%;
@@ -1804,7 +1812,7 @@ font-size: 18px;
 	filter: invert(33%) sepia(44%) saturate(3425%) hue-rotate(194deg) brightness(97%) contrast(93%);
 }
 .biome_dog_sub .biome_dog_sub_img img{
-	margin-bottom: -6px;
+	/* margin-bottom: -6px; */
 }
 .biome_dog .background_color_banner{
 	background-color: #097EEA;
@@ -2084,6 +2092,10 @@ font-size: 18px;
 }
 #detail2,#detail3,#detail4,#detail5,#detail6{
 	display: none;
+}
+.biome_dog_sub {
+	padding-top: 120px;
+	padding-bottom: 60px;
 }
 
 /* ========== 미디어쿼리 타블렛========== */

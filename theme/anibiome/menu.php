@@ -21,7 +21,7 @@
                             <a href="/bbs/content.php?co_id=sub21">Products & Services</a>
                             <a href="/bbs/content.php?co_id=sub23">미션 및 비전</a>
                             <a href="/bbs/content.php?co_id=sub24">팀소개</a>
-                            <a href="#">글로벌 네트워크</a>
+                            <a href="/bbs/content.php?co_id=sub25">글로벌 네트워크</a>
                         </div>
                     </div>
                 </li>

@@ -116,59 +116,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 							</div>
 				</div>
 			</div>
-			<div class="box_width biome_dog_sub">
-				<h1>불균형한 장이 반려견의 증상을 유발할 수 있습니다.</h1>
-				<p>증상에 대해 자세히 알아보고, 애니바이옴헬스케어 장 건강 테스트를 시작하십시오.</p>
-				<ul class="biome_dog_icon_list">
-					<li class="biome_icon" id="detail_btn1">
-						<a href="#detail1">
-							<div class="icon_img">
-								<img src="/assets/images/biomeDog/biome_icon1.svg" alt="알레르기 아이콘"/>
-							</div>
-							<h3>알레르기</h3>
-						</a>
-					</li>
-					<li class="biome_icon" id="detail_btn2">
-						<a href="#detail2">
-							<div class="icon_img">
-								<img src="/assets/images/biomeDog/biome_icon2.svg" alt="구취 아이콘"/>
-							</div>
-							<h3>구취</h3>
-						</a>
-					</li>
-					<li class="biome_icon" id="detail_btn3">
-						<a href="#detail3">
-							<div class="icon_img">
-								<img src="/assets/images/biomeDog/biome_icon3.svg" alt="설사 아이콘"/>
-							</div>
-							<h3>설사</h3>
-						</a>
-					</li>
-					<li class="biome_icon" id="detail_btn4">
-						<a href="#detail4">
-							<div class="icon_img">
-								<img src="/assets/images/biomeDog/biome_icon4.svg" alt="장 및 소화 아이콘"/>
-							</div>
-							<h3>장 및 소화</h3>
-						</a>
-					</li>
-					<li class="biome_icon" id="detail_btn5">
-						<a href="#detail5">
-							<div class="icon_img">
-								<img src="/assets/images/biomeDog/biome_icon5.svg" alt="구강 건강 아이콘"/>
-							</div>
-							<h3>구강 건강</h3>
-						</a>
-					</li>
-					<li class="biome_icon" id="detail_btn6">
-						<a href="#detail6">
-							<div class="icon_img">
-								<img src="/assets/images/biomeDog/biome_icon6.svg" alt="스킨&코트 아이콘"/>
-							</div>
-							<h3>스킨&코트</h3>
-						</a>
-					</li>
-				</ul>
+			<div class="box_width">
 				<div class="biome_dog_sub_img">
 					<img src="/assets/images/biomeDog/biome_sub.png" alt="강아지 이미지" />
 				</div>
@@ -257,6 +205,60 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 						</li>
 					</ul>
 				</div>
+			</div>
+			<div class="box_width biome_dog_sub">
+				<h1>불균형한 장이 반려견의 증상을 유발할 수 있습니다.</h1>
+				<p>증상에 대해 자세히 알아보고, 애니바이옴헬스케어 장 건강 테스트를 시작하십시오.</p>
+				<ul class="biome_dog_icon_list">
+					<li class="biome_icon" id="detail_btn1">
+						<a href="#detail1">
+							<div class="icon_img">
+								<img src="/assets/images/biomeDog/biome_icon1.svg" alt="알레르기 아이콘"/>
+							</div>
+							<h3>알레르기</h3>
+						</a>
+					</li>
+					<li class="biome_icon" id="detail_btn2">
+						<a href="#detail2">
+							<div class="icon_img">
+								<img src="/assets/images/biomeDog/biome_icon2.svg" alt="구취 아이콘"/>
+							</div>
+							<h3>구취</h3>
+						</a>
+					</li>
+					<li class="biome_icon" id="detail_btn3">
+						<a href="#detail3">
+							<div class="icon_img">
+								<img src="/assets/images/biomeDog/biome_icon3.svg" alt="설사 아이콘"/>
+							</div>
+							<h3>설사</h3>
+						</a>
+					</li>
+					<li class="biome_icon" id="detail_btn4">
+						<a href="#detail4">
+							<div class="icon_img">
+								<img src="/assets/images/biomeDog/biome_icon4.svg" alt="장 및 소화 아이콘"/>
+							</div>
+							<h3>장 및 소화</h3>
+						</a>
+					</li>
+					<li class="biome_icon" id="detail_btn5">
+						<a href="#detail5">
+							<div class="icon_img">
+								<img src="/assets/images/biomeDog/biome_icon5.svg" alt="구강 건강 아이콘"/>
+							</div>
+							<h3>구강 건강</h3>
+						</a>
+					</li>
+					<li class="biome_icon" id="detail_btn6">
+						<a href="#detail6">
+							<div class="icon_img">
+								<img src="/assets/images/biomeDog/biome_icon6.svg" alt="스킨&코트 아이콘"/>
+							</div>
+							<h3>스킨&코트</h3>
+						</a>
+					</li>
+				</ul>
 			</div>
 		</section>
 		<section class="biome_dog_detail">
