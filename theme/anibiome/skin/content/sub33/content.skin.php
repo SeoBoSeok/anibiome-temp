@@ -11,7 +11,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 		<section class="sub_visual">
 			<div class="sub_top_bg"><img src="/assets/images/sub_top_bg.png"></div>
 			<div class="page_name text-typing-any">
-				<p>Target Market</p>
+				<p>사업화 전략</p>
 			</div>
 			<div class="page_navi box_width">
 				<a href="index.html" class="home">홈</a>
@@ -27,7 +27,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 						</div>
 					</div>
 					<div class="dropdown">
-						<div class="dropbtn open-btn-ckver">Target Market</div>
+						<div class="dropbtn open-btn-ckver">사업화 전략</div>
 						<div class="dropdown-content">
 							<a href="">menu01</a>
 							<a href="">menu02</a>
