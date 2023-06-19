@@ -4,7 +4,7 @@
             <h2 class="logo"><a href="/">로고</a></h2>
             <ul class="gnb m_none">
                 <li>
-                    <a href="/bbs/content.php?co_id=sub11" target="_blank">수의통합의학 강의실</a>
+                    <a href="/bbs/content.php?co_id=sub11">수의통합의학 강의실</a>
                     <div class="inner_menu">
                         <div class="list">
                             <a href="/bbs/content.php?co_id=sub11">수의통합의학</a>
@@ -15,7 +15,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="/bbs/content.php?co_id=sub21" target="_blank">회사소개</a>
+                    <a href="/bbs/content.php?co_id=sub21">회사소개</a>
                     <div class="inner_menu">
                         <div class="list">
                             <a href="/bbs/content.php?co_id=sub21">회사소개</a>
@@ -26,18 +26,18 @@
                     </div>
                 </li>
                 <li>
-                    <a href="/bbs/content.php?co_id=sub33" target="_blank">핵심역량/사업</a>
+                    <a href="/bbs/content.php?co_id=sub33">핵심역량/사업</a>
                     <div class="inner_menu">
                         <div class="list">
-                            <a href="/bbs/content.php?co_id=sub33">Target Market</a>
-                            <a href="/bbs/content.php?co_id=sub33">코어시장과 소비자의 니즈</a>
+                            <a href="/bbs/content.php?co_id=sub31">Target Market</a>
+                            <a href="/bbs/content.php?co_id=sub32">코어시장과 소비자의 니즈</a>
                             <a href="/bbs/content.php?co_id=sub33">사업화 전략</a>
                             <a href="/bbs/content.php?co_id=sub34">중장기 성장전략</a>
                         </div>
                     </div>
                 </li>
                 <li>
-                    <a href="/bbs/content.php?co_id=sub41" target="_blank">협업/자문 시스템</a>
+                    <a href="/bbs/content.php?co_id=sub41">협업/자문 시스템</a>
                     <div class="inner_menu">
                         <div class="list">
                             <a href="/bbs/content.php?co_id=sub41">협업/자문 시스템</a>
@@ -47,7 +47,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="/bbs/content.php?co_id=sub52" target="_blank">마이크로바이옴</a>
+                    <a href="/bbs/content.php?co_id=sub52">마이크로바이옴</a>
                     <div class="inner_menu">
                         <div class="list">
                             <a href="/bbs/content.php?co_id=sub51">마이크로바이옴</a>
@@ -61,7 +61,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="/bbs/content.php?co_id=shop" target="_blank">제품/쇼핑몰</a>
+                    <a href="/bbs/content.php?co_id=shop">제품/쇼핑몰</a>
                     <div class="inner_menu">
                         <div class="list">
                             <a href="/bbs/content.php?co_id=shop">제품/쇼핑몰</a>

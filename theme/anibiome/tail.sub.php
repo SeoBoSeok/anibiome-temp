@@ -27,9 +27,10 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 			</div>
 			<a href="#"  class="open-btn-ckver">핵심역량/사업</a>
 			<div class="detail_menu">
-				<a href="/bbs/content.php?co_id=sub33">서브 논의 필요1</a>
-				<a href="/bbs/content.php?co_id=sub33">서브 논의 필요2</a>
-				<a href="/bbs/content.php?co_id=sub33">Target Market</a>
+				<a href="/bbs/content.php?co_id=sub31">Target Market</a>
+				<a href="/bbs/content.php?co_id=sub32">코어시장과 소비자의 니즈</a>
+				<a href="/bbs/content.php?co_id=sub33">사업화 전략</a>
+				<a href="/bbs/content.php?co_id=sub34">중장기 성장전략</a>
 			</div>
 			<a href="#"  class="open-btn-ckver">협업/자문 시스템</a>
 			<div class="detail_menu">
