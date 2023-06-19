@@ -18,7 +18,7 @@
                     <a href="/bbs/content.php?co_id=sub21" target="_blank">회사소개</a>
                     <div class="inner_menu">
                         <div class="list">
-                            <a href="/bbs/content.php?co_id=sub21">Products & Services</a>
+                            <a href="/bbs/content.php?co_id=sub21">회사소개</a>
                             <a href="/bbs/content.php?co_id=sub23">미션 및 비전</a>
                             <a href="/bbs/content.php?co_id=sub24">팀소개</a>
                             <a href="/bbs/content.php?co_id=sub25">글로벌 네트워크</a>
@@ -29,9 +29,10 @@
                     <a href="/bbs/content.php?co_id=sub33" target="_blank">핵심역량/사업</a>
                     <div class="inner_menu">
                         <div class="list">
-                            <a href="/bbs/content.php?co_id=sub33">서브 논의 필요1</a>
-                            <a href="/bbs/content.php?co_id=sub33">서브 논의 필요2</a>
                             <a href="/bbs/content.php?co_id=sub33">Target Market</a>
+                            <a href="/bbs/content.php?co_id=sub33">코어시장과 소비자의 니즈</a>
+                            <a href="/bbs/content.php?co_id=sub33">사업화 전략</a>
+                            <a href="/bbs/content.php?co_id=sub34">중장기 성장전략</a>
                         </div>
                     </div>
                 </li>

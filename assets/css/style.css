@@ -1031,6 +1031,9 @@ font-size: 18px;
 .targetmarket > div:first-child img {
 	width:630px;
 }
+.targetmarket > div:first-child img.big {
+	width: 800px;
+}
 .targetmarket .rnd .cover {
 	background: url("../images/sub_targetmarket_img02.png");
 	height:440px;
@@ -1047,6 +1050,9 @@ font-size: 18px;
 	border-radius: 8px;
 	margin-top:-100px;
 	background: #fff;
+}
+.targetmarket .rnd .content.padd {
+	padding-bottom: 50px;
 }
 .targetmarket .platform_area .sc_tit {
 	margin-bottom:50px;

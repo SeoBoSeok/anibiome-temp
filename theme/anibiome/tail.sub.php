@@ -20,10 +20,10 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 			</div>
 			<a href="#"  class="open-btn-ckver">회사소개</a>
 			<div class="detail_menu">
-				<a href="/bbs/content.php?co_id=sub21">Products & Services</a>
+				<a href="/bbs/content.php?co_id=sub21">회사소개</a>
 				<a href="/bbs/content.php?co_id=sub23">미션 및 비전</a>
 				<a href="/bbs/content.php?co_id=sub24">팀소개</a>
-				<a href="#">글로벌 네트워크</a>
+				<a href="/bbs/content.php?co_id=sub25">글로벌 네트워크</a>
 			</div>
 			<a href="#"  class="open-btn-ckver">핵심역량/사업</a>
 			<div class="detail_menu">
@@ -40,8 +40,8 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 			<a href="#"  class="open-btn-ckver">마이크로바이옴</a>
 			<div class="detail_menu">
 				<a href="/bbs/content.php?co_id=sub51">마이크로바이옴</a>
-				<a href="/bbs/content.php?co_id=sub51">마이크로바이옴 (개)</a>
-				<a href="/bbs/content.php?co_id=sub51">마이크로바이옴 (고양이)</a>
+				<a href="/bbs/content.php?co_id=sub52">마이크로바이옴 (개)</a>
+				<a href="/bbs/content.php?co_id=sub53">마이크로바이옴 (고양이)</a>
 				<a href="/bbs/board.php?bo_table=research">연구자료실</a>
 				<a href="/bbs/content.php?co_id=sub51">분변이식(FMT)</a>
 				<a href="/bbs/content.php?co_id=sub51">분변기증자선별</a>
