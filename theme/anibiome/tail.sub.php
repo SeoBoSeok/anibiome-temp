@@ -44,9 +44,9 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 				<a href="/bbs/content.php?co_id=sub52">마이크로바이옴 (개)</a>
 				<a href="/bbs/content.php?co_id=sub53">마이크로바이옴 (고양이)</a>
 				<a href="/bbs/board.php?bo_table=research">연구자료실</a>
-				<a href="/bbs/content.php?co_id=sub51">분변이식(FMT)</a>
-				<a href="/bbs/content.php?co_id=sub51">분변기증자선별</a>
-				<a href="/bbs/content.php?co_id=sub51">전문치료 프로그램</a>
+				<a href="/bbs/content.php?co_id=sub55">분변이식(FMT)</a>
+				<a href="/bbs/content.php?co_id=sub56">분변기증자선별</a>
+				<a href="/bbs/content.php?co_id=sub57">전문치료 프로그램</a>
 			</div>
 			<a href="#"  class="open-btn-ckver">제품/쇼핑몰</a>
 			<div class="detail_menu">
