@@ -5,7 +5,41 @@ include_once(G5_LIB_PATH.'/thumbnail.lib.php');
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 ?>
-
+<div class="wrap">
+    <?php include_once(G5_THEME_PATH.'/menu.php'); ?>
+    <div class="content_wrap sub veterinary">
+		<section class="sub_visual">
+			<div class="sub_top_bg"><img src="/assets/images/sub_top_bg.png"></div>
+			<div class="page_name text-typing-any">
+				<p class="al_center">연구자료실</p>
+			</div>
+			<div class="page_navi box_width">
+				<a href="/" class="home">홈</a>
+				<div class="dropdown_set">
+					<div class="dropdown">
+						<div class="dropbtn open-btn-ckver">마이크로바이옴</div>
+						<div class="dropdown-content">
+							<a href="">회사소개</a>
+							<a href="">핵심역량/사업</a>
+							<a href="">협업/자문 시스템</a>
+							<a href="">마이크로바이옴</a>
+							<a href="">제품/쇼핑몰</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<div class="dropbtn open-btn-ckver" >연구자료실</div>
+						<div class="dropdown-content">
+							<a href="">수의통합의학</a>
+							<a href="">강의/교육컨텐츠</a>
+							<a href="">전문진료자문시스템</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+<div class="box_width" style="padding-top: 120px;">
 <!-- 게시판 목록 시작 { -->
 <div id="bo_gall" style="width:<?php echo $width; ?>">
 
@@ -299,3 +333,4 @@ jQuery(function($){
 </script>
 <?php } ?>
 <!-- } 게시판 목록 끝 -->
+</div>
