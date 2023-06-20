@@ -37,7 +37,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 				</div>
 			</div>
 		</section>
-		<section class="ourteam">
+		<section class="ourteam bg3">
 			<div class="box_width section_padding">
 				<div class="txt_half_box">
 					<p class="left_tit">

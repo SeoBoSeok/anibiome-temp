@@ -40,7 +40,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 				<li class="login_on"> <!--로그인시, class="login_on"추가--->
 					<a href="">
 						<div class="img">
-							<img src="">
+							<img src="/assets/images/shop1.webp">
 						</div>
 						<div class="info"> 
 							<span class="category">animalbiome 수의학</span>
@@ -53,7 +53,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 				<li>
 					<a href="">
 						<div class="img">
-							<img src="">
+							<img src="/assets/images/shop2.webp">
 						</div>
 						<div class="info">
 							<span class="category">animalbiome 수의학</span>
@@ -66,7 +66,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 				<li>
 					<a href="">
 						<div class="img">
-							<img src="">
+							<img src="/assets/images/shop3.webp">
 						</div>
 						<div class="info">
 							<span class="category">animalbiome 수의학</span>
@@ -79,7 +79,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 				<li>
 					<a href="">
 						<div class="img">
-							<img src="">
+							<img src="/assets/images/shop4.webp">
 						</div>
 						<div class="info">
 							<span class="category">animalbiome 수의학</span>
@@ -92,7 +92,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 				<li>
 					<a href="">
 						<div class="img">
-							<img src="">
+							<img src="/assets/images/shop5.webp">
 						</div>
 						<div class="info">
 							<span class="category">animalbiome 수의학</span>
@@ -105,7 +105,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 				<li>
 					<a href="">
 						<div class="img">
-							<img src="">
+							<img src="/assets/images/shop6.webp">
 						</div>
 						<div class="info">
 							<span class="category">animalbiome 수의학</span>
@@ -118,180 +118,11 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 				<li>
 					<a href="">
 						<div class="img">
-							<img src="">
-						</div>
-						<div class="info">
-							<span class="category">animalbiome 수의학</span>
-							<p class="tit">장 건강 테스트</p>
-							<div class="price">35,000원</div>
-							<button>가격을 보려면 로그인 또는 등록<i></i></button>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<div class="img">
-							<img src="">
-						</div>
-						<div class="info">
-							<span class="category">animalbiome 수의학</span>
-							<p class="tit">개를 위한 구강 건강 테스트</p>
-							<div class="price">35,000원</div>
-							<button>가격을 보려면 로그인 또는 등록<i></i></button>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<div class="img">
-							<img src="">
-						</div>
-						<div class="info">
-							<span class="category">animalbiome 수의학</span>
-							<p class="tit">개를 위한 장 건강 테스트</p>
-							<div class="price">35,000원</div>
-							<button>가격을 보려면 로그인 또는 등록<i></i></button>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<div class="img">
-							<img src="">
+							<img src="/assets/images/shop7.webp">
 						</div>
 						<div class="info">
 							<span class="category">animalbiome 수의학</span>
 							<p class="tit">개를 위한 GI 릴리프 키트</p>
-							<div class="price">35,000원</div>
-							<button>가격을 보려면 로그인 또는 등록<i></i></button>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<div class="img">
-							<img src="">
-						</div>
-						<div class="info">
-							<span class="category">animalbiome 수의학</span>
-							<p class="tit">장 건강 테스트</p>
-							<div class="price">35,000원</div>
-							<button>가격을 보려면 로그인 또는 등록<i></i></button>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<div class="img">
-							<img src="">
-						</div>
-						<div class="info">
-							<span class="category">animalbiome 수의학</span>
-							<p class="tit">개를 위한 구강 건강 테스트</p>
-							<div class="price">35,000원</div>
-							<button>가격을 보려면 로그인 또는 등록<i></i></button>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<div class="img">
-							<img src="">
-						</div>
-						<div class="info">
-							<span class="category">animalbiome 수의학</span>
-							<p class="tit">개를 위한 장 건강 테스트</p>
-							<div class="price">35,000원</div>
-							<button>가격을 보려면 로그인 또는 등록<i></i></button>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<div class="img">
-							<img src="">
-						</div>
-						<div class="info">
-							<span class="category">animalbiome 수의학</span>
-							<p class="tit">개를 위한 GI 릴리프 키트</p>
-							<div class="price">35,000원</div>
-							<button>가격을 보려면 로그인 또는 등록<i></i></button>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<div class="img">
-							<img src="">
-						</div>
-						<div class="info">
-							<span class="category">animalbiome 수의학</span>
-							<p class="tit">개를 위한 GI 릴리프 키트</p>
-							<div class="price">35,000원</div>
-							<button>가격을 보려면 로그인 또는 등록<i></i></button>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<div class="img">
-							<img src="">
-						</div>
-						<div class="info">
-							<span class="category">animalbiome 수의학</span>
-							<p class="tit">장 건강 테스트</p>
-							<div class="price">35,000원</div>
-							<button>가격을 보려면 로그인 또는 등록<i></i></button>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<div class="img">
-							<img src="">
-						</div>
-						<div class="info">
-							<span class="category">animalbiome 수의학</span>
-							<p class="tit">개를 위한 구강 건강 테스트</p>
-							<div class="price">35,000원</div>
-							<button>가격을 보려면 로그인 또는 등록<i></i></button>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<div class="img">
-							<img src="">
-						</div>
-						<div class="info">
-							<span class="category">animalbiome 수의학</span>
-							<p class="tit">개를 위한 장 건강 테스트</p>
-							<div class="price">35,000원</div>
-							<button>가격을 보려면 로그인 또는 등록<i></i></button>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<div class="img">
-							<img src="">
-						</div>
-						<div class="info">
-							<span class="category">animalbiome 수의학</span>
-							<p class="tit">개를 위한 GI 릴리프 키트</p>
-							<div class="price">35,000원</div>
-							<button>가격을 보려면 로그인 또는 등록<i></i></button>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<div class="img">
-							<img src="">
-						</div>
-						<div class="info">
-							<span class="category">animalbiome 수의학</span>
-							<p class="tit">장 건강 테스트</p>
 							<div class="price">35,000원</div>
 							<button>가격을 보려면 로그인 또는 등록<i></i></button>
 						</div>
@@ -300,11 +131,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 			</ul>
 			<div class="pagination">
 			  <a href="#" class="prev">prev</a>
-			  <a href="#">1</a>
-			  <a class="active" href="#">2</a>
-			  <a href="#">3</a>
-			  <a href="#">4</a>
-			  <a href="#">5</a>
+			  <a class="active" href="#">1</a>
 			  <a href="#" class="next">next</a>
 			</div>
 		</section>

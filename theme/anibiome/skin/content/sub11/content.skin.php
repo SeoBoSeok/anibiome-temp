@@ -71,7 +71,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 				</div>
 			</div>
 		</section>
-		<section class="hidden">
+		<section class="hidden bg2">
 			<div class="box_width section_padding" data-aos="zoom-in-up">
 				<div class="sub_small_sectionbox">
 					<p class="tit">연속적 노인 의료 서비스</p>

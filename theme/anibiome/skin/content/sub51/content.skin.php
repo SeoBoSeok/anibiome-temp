@@ -162,6 +162,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 						</li>
 				</ul>
 			</div>
+			<div class="tea_banner"></div>
 			<div class="process01 box_width section_padding">
 				<div class="txt_half_box">
 					<p class="left_tit" data-aos="fade-right">
@@ -238,19 +239,19 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 					<ul>
 						<li data-aos="fade-up">
 							<span>step 01</span>
-							<div class="img"><img src="/assets/images/microbiome_img07.svg"></div>
+							<div class="img" style="justify-content: center;"><img src="/assets/images/step1.png" style="width: auto;"></div>
 							<p>애니바이옴헬스케어<br>마이크로바이옴 건강검사(분변, 구강)를<br>실시합니다.</p>
 						</li>
 						<li class="ico_next"><img src="/assets/images/ico_next_cyc_blue.svg"></li>
 						<li data-aos="fade-up" data-aos-delay="100">
 							<span>step 02</span>
-							<div class="img"><img src="/assets/images/microbiome_img08.svg"></div>
+							<div class="img"  style="justify-content: center;"><img src="/assets/images/step2.png" style="width: auto;"></div>
 							<p>장내 미생물 건강 테스트 결과를 기다리는 동안<br>(일반적으로 15~30), 애니바이옴헬스케어 구호<br>제품으로 증상을 완화할 수 있습니다.</p>
 						</li>
 						<li class="ico_next"><img src="/assets/images/ico_next_cyc_blue.svg"></li>
 						<li data-aos="fade-up" data-aos-delay="200">
 							<span>step 03</span>
-							<div class="img"><img src="/assets/images/microbiome_img09.svg"></div>
+							<div class="img"  style="justify-content: center;"><img src="/assets/images/step3.png" style="width: auto;"></div>
 							<p>환자의 장 & 구강 마이크로바이옴 건강 테스트<br>보고서 결과를 사용하여 반려동물을 위한 맞춤형<br>계획을 세웁니다.</p>
 						</li>
 					</ul>

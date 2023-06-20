@@ -240,7 +240,7 @@ footer .f_info_wrap .copyright {
 .sc_tit .sc_sub {
 	font-weight: 400;
 	font-size: 24px;
-	color: #9E9E9e;
+	color: #000;
 	margin-top:16px;
 	line-height: 140%;
 }
@@ -351,14 +351,34 @@ footer .f_info_wrap .copyright {
 	border-radius: 8px;
 	padding:40px 0;
 }
-.main .product_3-step ul li:nth-child(3) {
+.main .product_3-step ul.four li {
+	width: 100%;
+	text-align: center;
+	background: #F6F7F9;
+	border-radius: 8px;
+	padding:40px 20px;
+	margin: 0 10px;
+}
+.main .product_3-step ul.four li ol {
+	padding-left: 20px;
+}
+.main .product_3-step ul.four li ol li {
+	padding: 0;
+	list-style: circle;
+	text-align: left;
+	font-size: 16px;
+}
+.main .product_3-step ul:not(.four) li:nth-child(3) {
 	margin-right:0px;
 }
+.main .product_3-step ul.four li:nth-child(3) {
+	/* margin-right:20px; */
+}
 .main .product_3-step .step {
-	background: var(--color-main);
-border-radius: 99px;
+	background: var(--color-darkmain);
+	border-radius: 99px;
 	font-weight: 600;
-font-size: 18px;
+	font-size: 18px;
 	color: #FFFFFF;
 	padding:8px 16px;
 }
@@ -371,8 +391,15 @@ font-size: 18px;
 	height:150px;
 	margin:24px 0;
 }
+.main .product_3-step .img.four {
+	height: auto;
+}
+.main .product_3-step .img.four img {
+	width: 80px;
+}
 .main .product_3-step .img img {
 	height:100%;
+	width: auto;
 }
 /*서브페이지 상단 공통*/
 .sub .sub_visual {
@@ -537,6 +564,53 @@ font-size: 18px;
 	padding-top:120px;
 	color:#fff;
 }
+.ourteam .team_list_area .visual.main {
+	background: url(../images/main_b.png);
+	height: 400px;
+	padding-top: 0;
+	position: relative;
+}
+.ourteam .team_list_area .visual.main>.shg-box-overlay {
+    background-color: #002454;
+    opacity: 0.85;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+}
+.shg-row {
+	padding-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: inherit;
+    max-height: inherit;
+    justify-content: space-between
+}
+
+.shg-row>* {
+    min-height: inherit;
+    max-height: inherit
+}
+
+[class*=shg-c-xs],[class*=shg-c-sm],[class*=shg-c-md],[class*=shg-c-lg] {
+    position: relative
+}
+.shg-align-center {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.shg-btn {
+	padding: 10px 30px;
+	font-size: 20px;
+	font-weight: 500;
+	border-radius: 30px;
+	border: 1px solid #fff;
+}
+#s-bd55a431-a8b7-4686-bab7-feba33855e14 {
+    margin-left: 0%;
+    margin-right: 0%
+}
 .ourteam .img_box {
 	height: 500px;
 	border-radius: 8px;
@@ -637,7 +711,7 @@ font-size: 18px;
 	display: block;
 	font-weight: 400;
 	font-size: 14px;
-	color: #9E9E9E;
+	color: #000;
 	margin-top:4px;
 	letter-spacing: 0;
 }
@@ -713,7 +787,7 @@ font-size: 18px;
 	text-align: left;
 	display: flex;
 	align-items: center;
-	color:#616161;
+	color:#000;
 }
 .modal.ourteam .career_list p span {
 	display: flex;
@@ -721,7 +795,7 @@ font-size: 18px;
 }
 .modal.ourteam .career_list p span em {
 	font-size:13px; line-height: 170%;
-	color:#9E9E9E;
+	color:#000;
 	letter-spacing: 0;
 }.modal.ourteam .career_list p span em:first-child {
 	margin-top:6px;
@@ -1295,7 +1369,7 @@ font-size: 18px;
 	font-weight: 600;
 	font-size: 18px;
 	padding:3px 16px;
-	background: var(--color-main);
+	background: var(--color-darkmain);
 	color:#fff;
 	display: inline-block;
 }
@@ -1460,9 +1534,9 @@ font-size: 18px;
 	display: none;
 } 
 .shop .product_list .item_list_wrap .img {
-	background: #dedede;
+	/* background: #dedede; */
 	width:100%;
-	padding-bottom:100%;
+	/* padding-bottom:100%; */
 	border-radius: 8px;
 	overflow: hidden;
 	margin-bottom:16px;
@@ -1567,10 +1641,13 @@ font-size: 18px;
 /* 추가 */
 .anibiome_contents_footer {
 	padding: 100px 0;
+	border-top: 1px solid #000;
 }
 .anibiome_contents_list {
 	padding: 18px 0;
+	border-bottom: 1px solid #E6E6EA;
 }
+.tt {font-size: 22px; padding-bottom: 20px; font-weight: 700;}
 .anibiome_contents_author, .anibiome_contents_subject, .anibiome_contents_content {
 	padding: 5px 0;
 }
@@ -2160,6 +2237,21 @@ font-size: 18px;
 .biome_dog_sub .biome_dog_icon_list .biome_icon.cat:hover .icon_img img {
 	/* filter: invert(33%) sepia(44%) saturate(3425%) hue-rotate(194deg) brightness(97%) contrast(93%); */
 	filter: invert(100%) sepia(60%) saturate(14%) hue-rotate(242deg) brightness(103%) contrast(100%);
+}
+.bg2 {
+	background-image: url('../images/bg2.png');
+}
+.bg3 {
+	background-image: url('../images/bg3.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.tea_banner {
+	background-image: url('../images/tea_banner.png');
+	background-size: contain;
+	height: 200px;
+	width: 100%;
+	margin-top: 100px;
 }
 
 /* ========== 미디어쿼리 타블렛========== */
@@ -3486,6 +3578,9 @@ font-size: 18px;
 	}
 	#banner1,#banner3{
 		height: 450px;
+	}
+	.shg-row {
+		flex-direction: column;
 	}
 }
 

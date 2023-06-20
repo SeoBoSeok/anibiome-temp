@@ -210,7 +210,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 				<p>증상에 대해 자세히 알아보고, 애니바이옴헬스케어 장 건강 테스트를 시작하십시오.</p>
 				<ul class="biome_dog_icon_list">
 					<li class="biome_icon cat" id="detail_btn1">
-						<a href="#detail2">
+						<a href="#detail1">
 							<div class="icon_img">
 								<img src="/assets/images/biomeDog/biome_icon2.svg" alt="구취 아이콘"/>
 							</div>
@@ -218,7 +218,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 						</a>
 					</li>
 					<li class="biome_icon cat" id="detail_btn2">
-						<a href="#detail3">
+						<a href="#detail2">
 							<div class="icon_img">
 								<img src="/assets/images/biomeDog/biome_icon3.svg" alt="설사 아이콘"/>
 							</div>
@@ -226,7 +226,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 						</a>
 					</li>
 					<li class="biome_icon cat" id="detail_btn3">
-						<a href="#detail4">
+						<a href="#detail3">
 							<div class="icon_img">
 								<img src="/assets/images/biomeDog/biome_icon4.svg" alt="장 및 소화 아이콘"/>
 							</div>
@@ -234,7 +234,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 						</a>
 					</li>
 					<li class="biome_icon cat" id="detail_btn4">
-						<a href="#detail1">
+						<a href="#detail4">
 							<div class="icon_img">
 								<img src="/assets/images/biome_icon7.svg" alt="헤어볼 아이콘"/>
 							</div>
