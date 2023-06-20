@@ -4,7 +4,17 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 ?>
-
+<div class="wrap">
+    <div class="content_wrap sub veterinary">
+        <section class="sub_visual">
+            <div class="sub_top_bg"><img src="/assets/images/sub_top_bg.png"></div>
+            <div class="page_name text-typing-any">
+                <p class="al_center">연구자료실 <br class="pc_none"> 글쓰기</p>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="box_width" style="padding-top: 100px; padding-bottom: 100px;">
 <section id="bo_w">
     <h2 class="sound_only"><?php echo $g5['title'] ?></h2>
 
@@ -251,3 +261,4 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
     </script>
 </section>
 <!-- } 게시물 작성/수정 끝 -->
+</div>

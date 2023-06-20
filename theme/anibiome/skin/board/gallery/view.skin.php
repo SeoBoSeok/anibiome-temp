@@ -8,6 +8,41 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
 <script src="<?php echo G5_JS_URL; ?>/viewimageresize.js"></script>
 
+<div class="wrap">
+    <?php include_once(G5_THEME_PATH.'/menu.php'); ?>
+    <div class="content_wrap sub veterinary">
+        <section class="sub_visual">
+            <div class="sub_top_bg"><img src="/assets/images/sub_top_bg.png"></div>
+            <div class="page_name text-typing-any">
+                <p class="al_center">강의/교육컨텐츠</p>
+            </div>
+            <div class="page_navi box_width">
+				<a href="/" class="home">홈</a>
+				<div class="dropdown_set">
+					<div class="dropdown">
+						<div class="dropbtn open-btn-ckver">수의통합의학 강의실</div>
+						<div class="dropdown-content">
+							<a href="">회사소개</a>
+							<a href="">핵심역량/사업</a>
+							<a href="">협업/자문 시스템</a>
+							<a href="">마이크로바이옴</a>
+							<a href="">제품/쇼핑몰</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<div class="dropbtn open-btn-ckver" >노령동물전문관리 프로그램</div>
+						<div class="dropdown-content">
+							<a href="">수의통합의학</a>
+							<a href="">강의/교육컨텐츠</a>
+							<a href="">전문진료자문시스템</a>
+						</div>
+					</div>
+				</div>
+			</div>            
+        </section>
+    </div>
+</div>
+<div class="box_width section_padding">
 <!-- 게시물 읽기 시작 { -->
 
 <article id="bo_v" style="width:<?php echo $width; ?>">
@@ -298,3 +333,4 @@ function excute_good(href, $el, $tx)
 }
 </script>
 <!-- } 게시글 읽기 끝 -->
+</div>
