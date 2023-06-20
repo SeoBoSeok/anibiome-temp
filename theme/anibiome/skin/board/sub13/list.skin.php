@@ -55,7 +55,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
 	</div>
 </div>
-<div class="box_width">
+<div class="box_width bg3" style="padding-top: 120px; background-size: cover;">
 
 
     <div class="floating"><?php if ($write_href) { ?><li><a href="<?php echo $write_href ?>" class="btn_b01 btn" title="글쓰기"><i class="fa fa-pencil" aria-hidden="true"></i> 글쓰기<span class="sound_only">글쓰기</span></a></li><?php } ?></div>
