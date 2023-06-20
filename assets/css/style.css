@@ -1698,8 +1698,8 @@ footer .f_info_wrap .copyright {
 	border-radius: 50px;
 }
 .global_network .founder_info h2{
-	font-size: 16px;
-	color: #757575;
+	font-size: 18px;
+	color: #000;
 	font-weight: 500;
 	line-height: 150%;
 }
@@ -1710,7 +1710,7 @@ footer .f_info_wrap .copyright {
 .global_network .founder_info .founder_list li{
 	font-size: 14px;
 	line-height: 150%;
-	color: #9E9E9E;
+	color: #000;
 	list-style: disc;
 	margin-bottom: 10px;
 }
@@ -1789,7 +1789,7 @@ footer .f_info_wrap .copyright {
 .global_network .global_network_member .content .member_info_list ul li{
 	list-style: disc;
 	font-size: 14px;
-	color: #616161;
+	color: #000;
 	line-height: 180%;
 }
 /*biomeDog*/
