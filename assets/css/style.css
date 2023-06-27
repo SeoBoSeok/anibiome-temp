@@ -1478,7 +1478,7 @@ footer .f_info_wrap .copyright {
 }
 /*shop*/
 .shop .content_wrap {
-	margin-top:110px;
+	/* margin-top:110px; */
 }
 .shop .shop_header {
 	width:100%;
@@ -1490,7 +1490,7 @@ footer .f_info_wrap .copyright {
     margin-top: -100px;
 }
 .shop .shop_header .tap_text {
-	margin-top:20px;
+	margin-top:50px;
 	font-size: 18px;
 	font-weight: 600;
 	display: flex;
@@ -2539,7 +2539,7 @@ footer .f_info_wrap .copyright {
 		max-width:600px;
 	}
 	.shop .content_wrap {
-    	margin-top: 90px;
+    	/* margin-top: 90px; */
 	}
 	.shop .product_list .item_list_wrap li {
 		width: calc(25% - 15px);

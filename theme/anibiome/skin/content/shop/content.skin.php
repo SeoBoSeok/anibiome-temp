@@ -13,6 +13,29 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 				<div class="page_name text-typing-any">
 					<p class="al_center">SHOP</p>
 				</div>
+				<div class="page_navi box_width">
+				<a href="index.html" class="home">홈</a>
+				<div class="dropdown_set">
+					<div class="dropdown">
+						<div class="dropbtn open-btn-ckver">SHOP</div>
+						<div class="dropdown-content">
+							<a href="">수의통합의학 강의실</a>
+							<a href="">핵심역량/사업</a>
+							<a href="">협업/자문 시스템</a>
+							<a href="">마이크로바이옴</a>
+							<a href="">제품/쇼핑몰</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<div class="dropbtn open-btn-ckver" >제품</div>
+						<div class="dropdown-content">
+							<a href="">menu01</a>
+							<a href="">menu02</a>
+							<a href="">menu03</a>
+						</div>
+					</div>
+				</div>
+			</div>
 			</div>
 		</section>
 		<section class="shop_header">
