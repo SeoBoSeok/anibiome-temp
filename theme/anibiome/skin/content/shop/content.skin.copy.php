@@ -7,17 +7,10 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 
 <div class="wrap shop">
 	<?php include_once(G5_THEME_PATH.'/menu.php'); ?>
-    <div class="content_wrap sub veterinary">
-		<section class="sub_visual shop_header">
-			<div class="sub_top_bg"><img src="/assets/images/sub_top_bg.png"></div>
-				<div class="page_name text-typing-any">
-					<p class="al_center">SHOP</p>
-				</div>
-			</div>
-		</section>
+    <div class="content_wrap">
 		<section class="shop_header">
 			<div class="box_width">
-				<!-- <h3 class="sc_tit">Shop</h3> -->
+				<h3 class="sc_tit">Shop</h3>
 				<div class="tap_text m_none_tab_on">
 					<a href="#" class="active">All products</a>
 					<a href="#">FMT products</a>
