@@ -159,11 +159,11 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 					</a>
 				</li>
 			</ul>
-			<div class="pagination">
+			<!-- <div class="pagination">
 			  <a href="#" class="prev">prev</a>
 			  <a class="active" href="#">1</a>
 			  <a href="#" class="next">next</a>
-			</div>
+			</div> -->
 		</section>
 	</div>
 </div>

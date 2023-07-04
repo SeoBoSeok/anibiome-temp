@@ -116,7 +116,7 @@ $ca_id = $it['ca_id'];
 $nav_skin = $skin_dir.'/navigation.skin.php';
 if(!is_file($nav_skin))
     $nav_skin = G5_SHOP_SKIN_PATH.'/navigation.skin.php';
-include $nav_skin;
+// include $nav_skin;
 
 if(defined('G5_THEME_USE_ITEM_CATEGORY') && G5_THEME_USE_ITEM_CATEGORY){
     // 이 분류에 속한 하위분류 출력

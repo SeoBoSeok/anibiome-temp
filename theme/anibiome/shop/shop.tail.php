@@ -17,53 +17,41 @@ $admin = get_admin("super");
 <!-- } 전체 콘텐츠 끝 -->
 
 <!-- 하단 시작 { -->
-<div id="ft">
-    <div id="ft_wr">
-        <ul id="ft_link" class="ft_cnt">
-            <li><a href="<?php echo get_pretty_url('content', 'company'); ?>">회사소개</a></li>
-            <li><a href="<?php echo get_pretty_url('content', 'provision'); ?>">서비스이용약관</a></li>
-            <li><a href="<?php echo get_pretty_url('content', 'privacy'); ?>">개인정보처리방침</a></li>
-            <li><a href="<?php echo get_device_change_url(); ?>">모바일버전</a></li>
-        </ul>
-        <div id="ft_company" class="ft_cnt">
-        	<h2>사이트 정보</h2>
-	        <p class="ft_info">
-		        <span><b>회사명</b> <?php echo $default['de_admin_company_name']; ?></span>
-	            <span><b>주소</b> <?php echo $default['de_admin_company_addr']; ?></span><br>
-	            <span><b>사업자 등록번호</b> <?php echo $default['de_admin_company_saupja_no']; ?></span>
-	            <span><b>대표</b> <?php echo $default['de_admin_company_owner']; ?></span>
-	            <span><b>전화</b> <?php echo $default['de_admin_company_tel']; ?></span>
-	            <span><b>팩스</b> <?php echo $default['de_admin_company_fax']; ?></span><br>
-	            <!-- <span><b>운영자</b> <?php echo $admin['mb_name']; ?></span><br> -->
-	            <span><b>통신판매업신고번호</b> <?php echo $default['de_admin_tongsin_no']; ?></span>
-	            <span><b>개인정보 보호책임자</b> <?php echo $default['de_admin_info_name']; ?></span><br>
-				<?php if ($default['de_admin_buga_no']) echo '<span><b>부가통신사업신고번호</b> '.$default['de_admin_buga_no'].'</span>'; ?>
-			</p>
-	    </div>
-	    
-	    <!-- 커뮤니티 최신글 시작 { -->
-        <section id="sidx_lat">
-            <?php echo latest('theme/notice', 'notice', 5, 30); ?>
-        </section>
-        <!-- } 커뮤니티 최신글 끝 -->
-
-		<?php echo visit('theme/shop_basic'); // 접속자 ?>
-    </div>
-
-    <div id="ft_copy">Copyright &copy; 2001-2013 <?php echo $default['de_admin_company_name']; ?>. All Rights Reserved.</div>
+    <footer>
+		<div class="box_width">
+			<h4 class="logo">애니바이옴 헬스케어</h4>
+			<div class="f_info_wrap">
+				<p class="name m_none">Anibiome Healthcare</p>
+				<div class="info_area">
+					<p><em>Adress :</em> (28651) 242, Sajik-daero, Seowon-gu, Cheongju-si, Chungcheongbuk-do, Korea</p>
+					<p><em>Phone :</em> 010-5130-8844</p>
+					<p><em>E-mail :</em> anibiome-hc@daum.net</p>
+					<p><em>Fax :</em> 043-274-9551</p>
+				</div>
+				<span class="copyright">2023. Anibiome Healthcare Inc. All Rights Reserved</span>
+			</div>
+		</div>
+	</footer>
 </div>
 
 <?php
-$sec = get_microtime() - $begin_time;
-$file = $_SERVER['SCRIPT_NAME'];
+if(G5_DEVICE_BUTTON_DISPLAY && !G5_IS_MOBILE) { ?>
+<?php
+}
 
 if ($config['cf_analytics']) {
     echo $config['cf_analytics'];
 }
 ?>
 
-<script src="<?php echo G5_JS_URL; ?>/sns.js"></script>
 <!-- } 하단 끝 -->
+
+<script>
+$(function() {
+    // 폰트 리사이즈 쿠키있으면 실행
+    font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+});
+</script>
 
 <?php
 include_once(G5_THEME_PATH.'/tail.sub.php');

@@ -411,7 +411,7 @@
 
 
 /* 관련상품 목록 스킨 10 */
-#sit_rel {position:relative;border:1px solid #e8e8e8;padding:35px;margin-top:20px;background:#fff}
+#sit_rel {position:relative;padding:35px;margin-top:20px;background:#fff}
 #sit_rel:after {display:block;visibility:hidden;clear:both;content:""}
 #sit_rel h2 {font-size:1.6em;margin:0 0 30px;text-align:center}
 #sit_rel .bx-wrapper {margin:0 auto}
@@ -504,7 +504,7 @@
 #sct_lst button .icon {display:block}
 
 /* 상품 상세보기 */
-#sit {margin:0 0 10px}
+#sit {margin:0}
 .sit_admin {position:absolute;right:0;top:2px;text-align:right}
 .sit_admin a {line-height:35px;padding:0 10px}
 .sit_empty {padding:60px 0;text-align:center}
@@ -512,8 +512,8 @@
 .is_search #wrapper_title, .is_item #wrapper_title{display:none}
 
 /* 상품 상세보기 - 개요 */
-#sit_ov_from {background:#fff;border-bottom:1px solid #e3e3e3;clear:both}
-#sit_ov_wrap {width:1200px;margin:0 auto;padding:45px;border-top:1px solid #e3e3e3}
+#sit_ov_from {background:#fff;clear:both}
+#sit_ov_wrap {width:1200px;margin:0 auto;padding:45px;border-top:1px solid #e3e3e3;margin-top: 100px;}
 #sit_ov_wrap:after {display:block;visibility:hidden;clear:both;content:""}
 
 /* 상품 상세보기 - 이미지 미리보기 */
@@ -617,6 +617,7 @@ background:url('img/select_arrow.png') no-repeat 96% 50%/* 화살표 아이콘 �
 
 /* 상품 상세보기 - 다른 상품 보기 */
 #sit_siblings {clear:both;width:100%;border-top:1px solid #f1f3f6;background:#fff;text-align:center;position:relative}
+#sit_siblings {display: none;}
 #sit_siblings:after {display:block;visibility:hidden;clear:both;content:""}
 #sit_siblings h2 {position:absolute;font-size:0;text-indent:-9999em;line-height:0;overflow:hidden}
 #sit_siblings a {display:block;position:relative;padding:0;margin: 15px;line-height:35px;color:#999}
@@ -626,10 +627,10 @@ background:url('img/select_arrow.png') no-repeat 96% 50%/* 화살표 아이콘 �
 #sit_siblings a#siblings_next:after {content:"";background:url('img/sit_siblings.jpg') -14px 0px no-repeat;position:absolute;right:0;top:10px;width:10px;height:15px;display:inline-block}
 #sit_siblings a span {position:absolute;font-size:0;text-indent:-9999em;line-height:0;overflow:hidden}
 
-#sit_info {display:inline-flex;position:relative;width:100%;min-height:600px;margin-top:20px;margin-bottom:30px;border:1px solid #e8e8e8;background:#fff}
+#sit_info {display:inline-flex;justify-content: center;position:relative;width:100%;min-height:600px;margin-top:20px;margin-bottom:30px;background:#fff}
 #sit_info:after {display:block;visibility:hidden;clear:both;content:""}
 
-#sit_tab {width:928px;display:table-cell}
+#sit_tab {width:100%;max-width: 1200px;display:table-cell}
 #sit_tab:after {display:block;visibility:hidden;clear:both;content:""}
 #sit_tab .tab_tit {border-bottom:1px solid #e8e8e8;background:#fff;padding:0 10px}
 #sit_tab .tab_tit:after {display:block;visibility:hidden;clear:both;content:""}

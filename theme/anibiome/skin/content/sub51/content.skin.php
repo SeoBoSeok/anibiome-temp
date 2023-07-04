@@ -88,17 +88,18 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 			</div>
 			<div class="box_width section_padding influence_area">
 				<div class="txt_half_box">
-					<p class="left_tit">
+					<!-- <p class="left_tit">
 						Influence
-					</p>
+					</p> -->
+					<div class="left_tit">Influence</div>
 					<div class="right_group">
 						<p>
 							<span>항생제가 마이크로바이옴에 미치는 영향</span>
 							어떤 상황에서는 이러한 강력한 약물이 필요하고 생명을 구하는 치료이기도 하지만 항생제( 메트로니다졸 과 같은 )는 환자의 장내 미생물 군집에 급진적이고 장기적인 변화를 일으킬 수 있습니다. 항생제는 목표로 하는 해로운 박테리아와 함께 많은 유익한 박테리아를 죽이기 때문입니다. 그러나 환자에게 항생제가 필요한 경우 치료 중 및 치료 후에 장 건강을 지원하기 위해 할 수 있는 일이 여전히 많이 있으며, 그 중에 가장 중요한 일이 바로 장내 마이크로바이옴의 균형의 회복입니다.
 						</p>
 						<p>
-							<span>식단이 반려동물의 장 건강에 미치는 영향</span>
-							<img src="/assets/images/microbiome_img04.svg" style="max-width: 339px; display: block; margin:0 auto;" class="dog_illu">
+							<!-- <span>식단이 반려동물의 장 건강에 미치는 영향</span> -->
+							<!-- <img src="/assets/images/microbiome_img04.svg" style="max-width: 339px; display: block; margin:0 auto;" class="dog_illu"> -->
 							식이요법은 환자의 장내 미생물군을 관리하는 가장 중요하고 최선의 방법입니다. 고양이나 개에게 먹이는 것은 어떤 종류의 미생물이 그들의 장에서 번성하고 번식하는지 결정하는 데 도움이 됩니다. 유익한 종류의 미생물을 지원하고 유해한 종류의 미생물을 억제하는 식단을 제공함으로써 환자가 더 길고 행복한 삶을 살 수 있도록 도울 수 있습니다.
 						</p>
 						<p>

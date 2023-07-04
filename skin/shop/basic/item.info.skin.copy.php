@@ -131,6 +131,65 @@ add_stylesheet('<link rel="stylesheet" href="'.G5_SHOP_CSS_URL.'/style.css">', 0
 	    });
 	});
 	</script>
+	<div id="sit_buy" class="fix">
+		<div class="sit_buy_inner">
+	        <?php if($option_item) {    // 선택옵션이 있다면 ?>
+	        <!-- 선택옵션 시작 { -->
+	        <section class="sit_side_option">
+	            <h3>선택옵션</h3>
+	            <?php // 선택옵션
+	            echo str_replace(array('class="get_item_options"', 'id="it_option_', 'class="it_option"'), array('class="get_side_item_options"', 'id="it_side_option_', 'class="it_side_option"'), $option_item);
+	            ?>
+	        </section>
+	        <!-- } 선택옵션 끝 -->
+	        <?php } // end if?>
+
+            <?php if($supply_item) {    // 추가옵션이 있다면 ?>
+	        <!-- 추가옵션 시작 { -->
+	        <section class="sit_side_option">
+	            <h3>추가옵션</h3>
+	            <?php // 추가옵션
+	            echo str_replace(array('id="it_supply_', 'class="it_supply"'), array('id="it_side_supply_', 'class="it_side_supply"'), $supply_item);
+	            ?>
+	        </section>
+	        <!-- } 추가옵션 끝 -->
+	        <?php } // end if?>
+            
+            <?php if ($is_orderable) { ?>
+	        <!-- 선택된 옵션 시작 { -->
+	        <section class="sit_sel_option">
+	            <h3>선택된 옵션</h3>
+	            <ul class="sit_opt_added">
+                    <?php if( !$option_item ){ ?>
+                    <li>
+                        <div class="opt_name">
+                            <span class="sit_opt_subj"><?php echo $it['it_name']; ?></span>
+                        </div>
+                        <div class="opt_count">
+                            <label for="ct_qty_<?php echo $i; ?>" class="sound_only">수량</label>
+                            <button type="button" class="sit_qty_minus"><i class="fa fa-minus" aria-hidden="true"></i><span class="sound_only">감소</span></button>
+                            <input type="text" name="ct_copy_qty[<?php echo $it_id; ?>][]" value="<?php echo $it['it_buy_min_qty']; ?>" id="ct_qty_<?php echo $i; ?>" class="num_input" size="5">
+                            <button type="button" class="sit_qty_plus"><i class="fa fa-plus" aria-hidden="true"></i><span class="sound_only">증가</span></button>
+                            <span class="sit_opt_prc">+0원</span>
+                        </div>
+                    </li>
+                    <?php } ?>
+                </ul>
+	        </section>
+	        <!-- } 선택된 옵션 끝 -->
+
+			<div class="sum_section">        
+		        <div class="sit_tot_price"></div>
+				
+				<div class="sit_order_btn">
+					<button type="submit" onclick="document.pressed=this.value;" value="장바구니" class="sit_btn_cart">장바구니</button>
+		            <button type="submit" onclick="document.pressed=this.value;" value="바로구매" class="sit_btn_buy">바로구매</button> 
+		       </div>
+			</div>
+            <?php } ?>
+			
+	    </div>   
+	</div>
 </section>
 
 <script>
