@@ -68,7 +68,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 		<section class="product_list">
 			<ul class="box_width item_list_wrap"> 
 				<li class="login_on"> <!--로그인시, class="login_on"추가--->
-					<a href="">
+					<a href="/shop/item.php?it_id=1688511650">
 						<div class="img">
 							<img src="/assets/images/shop1.webp">
 						</div>
@@ -81,7 +81,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/shop/item.php?it_id=1688511650">
 						<div class="img">
 							<img src="/assets/images/shop2.webp">
 						</div>
@@ -94,7 +94,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/shop/item.php?it_id=1688511650">
 						<div class="img">
 							<img src="/assets/images/shop3.webp">
 						</div>
@@ -107,7 +107,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/shop/item.php?it_id=1688511650">
 						<div class="img">
 							<img src="/assets/images/shop4.webp">
 						</div>
@@ -120,7 +120,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/shop/item.php?it_id=1688511650">
 						<div class="img">
 							<img src="/assets/images/shop5.webp">
 						</div>
@@ -133,7 +133,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/shop/item.php?it_id=1688511650">
 						<div class="img">
 							<img src="/assets/images/shop6.webp">
 						</div>
@@ -146,7 +146,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/shop/item.php?it_id=1688511650">
 						<div class="img">
 							<img src="/assets/images/shop7.webp">
 						</div>

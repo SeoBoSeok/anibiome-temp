@@ -2255,6 +2255,10 @@ footer .f_info_wrap .copyright {
 	width: 100%;
 	margin-top: 100px;
 }
+.wrap_cart {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
 
 /* ========== 미디어쿼리 타블렛========== */
 @media (max-width: 1300px) {
