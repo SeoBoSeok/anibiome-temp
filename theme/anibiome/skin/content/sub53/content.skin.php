@@ -398,13 +398,13 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 							<div class="dog_good">
 								<h4>균형적인 마이크로바이옴</h4>
 								<div class="dog_img">
-									<img src="/assets/images/biomeDog/dog_good.svg" alt="강아지 이미지"/>
+									<img src="/assets/images/biomeDog/cat_good.svg" alt="강아지 이미지"/>
 								</div>
 							</div>
 							<div class="dog_bad">
 								<h4>불균형적인 마이크로바이옴</h4>
 								<div class="dog_img">
-									<img src="/assets/images/biomeDog/dog_bad.svg" alt="강아지 이미지"/>
+									<img src="/assets/images/biomeDog/cat_bad.svg" alt="강아지 이미지"/>
 								</div>
 							</div>
 						</div>
@@ -503,13 +503,13 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 							<div class="dog_good">
 								<h4>균형적인 마이크로바이옴</h4>
 								<div class="dog_img">
-									<img src="/assets/images/biomeDog/dog_good.svg" alt="강아지 이미지"/>
+									<img src="/assets/images/biomeDog/cat_good.svg" alt="강아지 이미지"/>
 								</div>
 							</div>
 							<div class="dog_bad">
 								<h4>불균형적인 마이크로바이옴</h4>
 								<div class="dog_img">
-									<img src="/assets/images/biomeDog/dog_bad.svg" alt="강아지 이미지"/>
+									<img src="/assets/images/biomeDog/cat_bad.svg" alt="강아지 이미지"/>
 								</div>
 							</div>
 						</div>
@@ -610,13 +610,13 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 							<div class="dog_good">
 								<h4>균형적인 마이크로바이옴</h4>
 								<div class="dog_img">
-									<img src="/assets/images/biomeDog/dog_good.svg" alt="강아지 이미지"/>
+									<img src="/assets/images/biomeDog/cat_good.svg" alt="강아지 이미지"/>
 								</div>
 							</div>
 							<div class="dog_bad">
 								<h4>불균형적인 마이크로바이옴</h4>
 								<div class="dog_img">
-									<img src="/assets/images/biomeDog/dog_bad.svg" alt="강아지 이미지"/>
+									<img src="/assets/images/biomeDog/cat_bad.svg" alt="강아지 이미지"/>
 								</div>
 							</div>
 						</div>
@@ -718,13 +718,13 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 							<div class="dog_good">
 								<h4>균형적인 마이크로바이옴</h4>
 								<div class="dog_img">
-									<img src="/assets/images/biomeDog/dog_good.svg" alt="강아지 이미지"/>
+									<img src="/assets/images/biomeDog/cat_good.svg" alt="강아지 이미지"/>
 								</div>
 							</div>
 							<div class="dog_bad">
 								<h4>불균형적인 마이크로바이옴</h4>
 								<div class="dog_img">
-									<img src="/assets/images/biomeDog/dog_bad.svg" alt="강아지 이미지"/>
+									<img src="/assets/images/biomeDog/cat_bad.svg" alt="강아지 이미지"/>
 								</div>
 							</div>
 						</div>
@@ -820,13 +820,13 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 							<div class="dog_good">
 								<h4>균형적인 마이크로바이옴</h4>
 								<div class="dog_img">
-									<img src="/assets/images/biomeDog/dog_good.svg" alt="강아지 이미지"/>
+									<img src="/assets/images/biomeDog/cat_good.svg" alt="강아지 이미지"/>
 								</div>
 							</div>
 							<div class="dog_bad">
 								<h4>불균형적인 마이크로바이옴</h4>
 								<div class="dog_img">
-									<img src="/assets/images/biomeDog/dog_bad.svg" alt="강아지 이미지"/>
+									<img src="/assets/images/biomeDog/cat_bad.svg" alt="강아지 이미지"/>
 								</div>
 							</div>
 						</div>
