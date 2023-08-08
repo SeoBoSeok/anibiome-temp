@@ -11,7 +11,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 		<section class="sub_visual">
 			<div class="sub_top_bg"><img src="/assets/images/sub_top_bg.png"></div>
 			<div class="page_name text-typing-any">
-				<p class="al_center">연구자료실</p>
+				<p class="al_center"><?php echo $g5['title'] ?></p>
 			</div>
 			<div class="page_navi box_width">
 				<a href="/" class="home">홈</a>

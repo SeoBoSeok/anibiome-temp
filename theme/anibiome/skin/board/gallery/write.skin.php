@@ -9,7 +9,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
         <section class="sub_visual">
             <div class="sub_top_bg"><img src="/assets/images/sub_top_bg.png"></div>
             <div class="page_name text-typing-any">
-                <p class="al_center">연구자료실 <br class="pc_none"> 글쓰기</p>
+                <p class="al_center"><?php echo $g5['title'] ?> <br class="pc_none"> 글쓰기</p>
             </div>
         </section>
     </div>
