@@ -54,10 +54,18 @@
                             <a href="/bbs/content.php?co_id=sub52">마이크로바이옴 (개)</a>
                             <a href="/bbs/content.php?co_id=sub53">마이크로바이옴 (고양이)</a>
                             <a href="/bbs/board.php?bo_table=research">연구자료실</a>
-                            <a href="/bbs/board.php?bo_table=bacteriophage">박테리오 파지</a>
                             <a href="/bbs/content.php?co_id=sub55">분변이식(FMT)</a>
                             <a href="/bbs/content.php?co_id=sub56">분변기증자선별</a>
                             <a href="/bbs/content.php?co_id=sub57">전문치료 프로그램</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/bbs/content.php?co_id=sub61">박테리오 파지</a>
+                    <div class="inner_menu">
+                        <div class="list">
+                            <a href="/bbs/content.php?co_id=sub61">박테리오 파지</a>
+                            <a href="/bbs/board.php?bo_table=bacteriophage">연구자료실</a>
                         </div>
                     </div>
                 </li>
