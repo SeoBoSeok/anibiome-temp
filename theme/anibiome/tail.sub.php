@@ -48,6 +48,11 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 				<a href="/bbs/content.php?co_id=sub56">분변기증자선별</a>
 				<a href="/bbs/content.php?co_id=sub57">전문치료 프로그램</a>
 			</div>
+			<a href="#"  class="open-btn-ckver">박테리오 파지</a>
+			<div class="detail_menu">
+				<a href="/bbs/content.php?co_id=sub61">박테리오 파지</a>
+				<a href="/bbs/board.php?bo_table=bacteriophage">연구자료실</a>
+			</div>
 			<a href="#"  class="open-btn-ckver">제품/쇼핑몰</a>
 			<div class="detail_menu">
 				<a href="/bbs/content.php?co_id=shop">제품/쇼핑몰</a>
