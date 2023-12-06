@@ -96,6 +96,7 @@ add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/font-awesome/css/font
 // <link rel="stylesheet" type="text/css" href="css/style.css">
 add_stylesheet('<link rel="stylesheet" href="/assets/css/reset.css">', 0);
 add_stylesheet('<link rel="stylesheet" href="/assets/css/style.css">', 0);
+add_stylesheet('<link rel="stylesheet" href="/assets/css/style1.css">', 0);
 
 if(G5_IS_MOBILE) {
     add_javascript('<script src="'.G5_JS_URL.'/modernizr.custom.70111.js"></script>', 1); // overflow scroll 감지
@@ -122,6 +123,137 @@ if(!defined('G5_IS_ADMIN'))
 </script>
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+    $.noConflict();
+</script>
+
+<script>
+    $(document).ready(function(){
+        $('.fade-slide').slick({
+            dots: false,
+            arrows : false,
+            infinite: true,
+            speed: 200,
+            autoplay: true,
+            fade: true,
+            cssEase: 'linear'
+        });
+
+
+        $("#step2").hide();
+        $("#step3").hide();
+        $("#step4").hide();
+        $("#step5").hide();
+
+        $("#next_btn").click(function(){
+            $("#step1").hide();
+            $("#step2").show();
+        })
+        $("#next_btn2").click(function(){
+            $("#step2").hide();
+            $("#step3").show();
+        })
+        $("#next_btn3").click(function(){
+            $("#step3").hide();
+            $("#step4").show();
+        })
+        $("#next_btn4").click(function(){
+            $("#step4").hide();
+            $("#step5").show();
+        })
+
+        $("#prev_btn2").click(function(){
+            $("#step2").hide();
+            $("#step1").show();
+        })
+        $("#prev_btn3").click(function(){
+            $("#step3").hide();
+            $("#step2").show();
+        })
+        $("#prev_btn4").click(function(){
+            $("#step4").hide();
+            $("#step3").show();
+        })
+        $("#prev_btn5").click(function(){
+            $("#step4").show();
+            $("#step5").hide();
+        })
+
+
+        $("#step2_dog").hide();
+        $("#step3_dog").hide();
+        $("#step4_dog").hide();
+        $("#step5_dog").hide();
+
+        $("#next_btn_dog").click(function(){
+            $("#step1_dog").hide();
+            $("#step2_dog").show();
+        })
+        $("#next_btn2_dog").click(function(){
+            $("#step2_dog").hide();
+            $("#step3_dog").show();
+        })
+        $("#next_btn3_dog").click(function(){
+            $("#step3_dog").hide();
+            $("#step4_dog").show();
+        })
+        $("#next_btn4_dog").click(function(){
+            $("#step4_dog").hide();
+            $("#step5_dog").show();
+        })
+
+        $("#prev_btn2_dog").click(function(){
+            $("#step2_dog").hide();
+            $("#step1_dog").show();
+        })
+        $("#prev_btn3_dog").click(function(){
+            $("#step3_dog").hide();
+            $("#step2_dog").show();
+        })
+        $("#prev_btn4_dog").click(function(){
+            $("#step4_dog").hide();
+            $("#step3_dog").show();
+        })
+        $("#prev_btn5_dog").click(function(){
+            $("#step4_dog").show();
+            $("#step5_dog").hide();
+        })  
+
+
+    });
+    //헤더 높이 반응하는 스크립트
+    $(function(){
+        //변수 선언
+        var $header = $('header');
+        var $window = $(window);
+        var pageOffsetTop = 1//색상 변할 부분의 top값
+
+        //스크롤 감지 시
+        $window.on('scroll', function(){
+            var scrolled = $window.scrollTop() >= pageOffsetTop;
+            $header.toggleClass('down', scrolled); //스크롤 감지 시, header에 class="down" 추가
+        });
+
+        // 범위 랜덤 함수(소수점 2자리까지)
+        function random(min, max) {
+        return parseFloat((Math.random() * (max - min) + min).toFixed(2))
+        }
+
+        function floatingObject(selector,delay,size){
+        // gsap.to(요소, 시간, 옵션)
+        gsap.to(selector, random(1,2), {
+            y: size,
+            repeat: -1, // -1 무한반복
+            yoyo: true, // 애니메이션 되돌아오기(설정안할 시 끈킴)
+            ease: Power1.easeInOut, // 타이밍함수
+            delay: random(0,delay) // 지연시간
+        })
+        }
+        floatingObject('#ball1',.5,15)
+        floatingObject('#ball2',.5,15)
+
+    });
+</script>
 </head>
 <body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
 <?php

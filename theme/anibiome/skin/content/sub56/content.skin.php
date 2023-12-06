@@ -78,16 +78,16 @@ add_stylesheet('<link rel="stylesheet" href="'.$content_skin_url.'/style.css">',
 					<div class="txt_group">
 						<span>모든 개 기증자 자료는 기생충 및 병원균에 대해 정기적으로 검사됩니다.</span>
 						<ol style="padding-left: 20px; list-style: circle;">
-							<li style="list-style: circle; margin-top: 20px;">개의 분변샘플은 PCR을 통해 다양한 병원균에 대해 스크리닝 됩니다:</li>
-							<li style="list-style: circle;">개의 분변샘플은 ELISA를 통해 다양한 기생충에 대해 스크리닝 됩니다</li>
+							<li style="list-style: circle; margin-top: 20px;">개의 분변샘플은 PCR을 통해 다양한 병원균에 대해 스크리닝 됩니다.</li>
+							<li style="list-style: circle;">개의 분변샘플은 ELISA를 통해 다양한 기생충에 대해 스크리닝 됩니다.</li>
 							<li style="list-style: circle;">개의 분변샘플은 분변 부양법을 사용하여 난자와 기생충에 대해 스크리닝 됩니다.</li>
 						</ol>
 					</div>
 					<div class="txt_group" style="padding-top: 30px;">
-						<span>모든 고양이 기증자 재료는 기생충 및 병원균에 대해 정기적으로 검사됩니다</span>
+						<span>모든 고양이 기증자 재료는 기생충 및 병원균에 대해 정기적으로 검사됩니다.</span>
 						<ol style="padding-left: 20px; list-style: circle;">
-							<li style="list-style: circle; margin-top: 20px;">고양이의 분변샘플은 PCR을 통해 다양한 병원균에 대해 스크리닝 됩니다:</li>
-							<li style="list-style: circle;">고양이의 분변샘플은 ELISA를 통해 다양한 기생충에 대해 스크리닝 됩니다</li>
+							<li style="list-style: circle; margin-top: 20px;">고양이의 분변샘플은 PCR을 통해 다양한 병원균에 대해 스크리닝 됩니다.</li>
+							<li style="list-style: circle;">고양이의 분변샘플은 ELISA를 통해 다양한 기생충에 대해 스크리닝 됩니다.</li>
 							<li style="list-style: circle;">고양이의 분변샘플은 분변 부양법을 사용하여 난자와 기생충에 대해 스크리닝 됩니다.</li>
 						</ol>
 					</div>
